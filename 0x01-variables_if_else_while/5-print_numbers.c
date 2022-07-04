@@ -15,7 +15,7 @@ int main(void)
 	int sum;
 
 	for (sum = 0; sum < 10; sum++)
-		printf("%d", num);
+		printf("%d", sum);
 
 	printf("\n");
 
