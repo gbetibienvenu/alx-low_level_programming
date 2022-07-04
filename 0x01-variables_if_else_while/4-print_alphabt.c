@@ -12,11 +12,11 @@ int main(void)
 
 	while (alph <= 'z')
 	{
-		if (alph == 'i')
+		if (alph == 'e')
 		{
 			alph++;
 		}
-		else if (alph == 'r')
+		else if (alph == 'q')
 		{
 			alph++;
 		}
