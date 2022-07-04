@@ -2,35 +2,32 @@
  * File: 100-print_comb3.c
  * Auth: Gbeti B
  */
-
 #include <stdio.h>
-
 /**
- * main - Prints all possible combinations of two different digits,
- *        in ascending order, separated by a comma followed by a space.
- *
- * Return: Always 0 success.
- */
+*main - writes 00 - 99
+*Decription: Writes all unique combinations
+*Return: 0 for success
+*/
 int main(void)
 {
-	int num1, num2;
+	int i, j;
 
-	for (num1 = 0; num1 < 9; num1++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		for (num2 = num1 + 1; num2 < 10; num2++)
+		for (j = '0'; j <= '9'; j++)
 		{
-			putchar((num1 % 10) + '0');
-			putchar((num2 % 10) + '0');
-
-			if (num1 == 8 && num2 == 9)
-				continue;
-			
-			putchar(',');
-			putchar(' ');
+			if ((i < j) & (j <= '9'))
+			{
+				putchar(i);
+				putchar(j);
+				if ((j < '9') | (i < '8'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
