@@ -12,7 +12,7 @@ int main(void)
 
 	while (alphabet <= 'z')
 	{
-		putcha(alphabet);
+		putchar(alphabet);
 		alphabet++;
 	}
 	putchar('\n');
