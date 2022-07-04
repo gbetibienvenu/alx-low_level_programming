@@ -23,7 +23,7 @@ int main(void)
 	{
 		printf("and is 0");
 	}
-	if (v < 6 && x != 0)
+	if (v < 6 && v != 0)
 	{
 		printf("and is less than 6 and not 0");
 	}
