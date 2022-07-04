@@ -19,7 +19,7 @@ int main(void)
 		putchar((sum % 10) + '0');
 
 	for (alphabe = 'a'; alphabe <= 'f'; alphabe++)
-		putchar(aphabe);
+		putchar(alphabe);
 
 	putchar('\n');
 
