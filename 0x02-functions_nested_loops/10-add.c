@@ -3,11 +3,11 @@
 /**
  * add - Addition of two int
  *
- * a: first integer should added here
+ * @a: first integer
  *
- * b: second integer shoold also be added 
+ * @b: second integer
  *
- * Return: An pretty out put
+ * Return: something
  */
 int add(int a, int b)
 {
