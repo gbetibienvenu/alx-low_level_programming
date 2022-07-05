@@ -12,7 +12,7 @@ int main(void)
 	unsigned long a, b, c;
 
 	a = 0;
-	y = 1;
+	b = 1;
 	for (count = 1; count <= 49; count++)
 	{
 		c = a + b;
