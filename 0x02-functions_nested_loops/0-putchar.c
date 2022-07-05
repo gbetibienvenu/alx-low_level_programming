@@ -6,15 +6,13 @@
 */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	char bien[9] = "_putchar";
+	int i;
 
+	for (i = 0; i < 8; i = i + 1)
+	{
+		_putchar(bien[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
