@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*main - print sum of all even fibonacci numbers
-*Description: main - print num of all even fibonacci numbers 
-*Return: void
+*main - print sum of all even fibonacci numbers under some calculations
+*Description: main - print sum of all even fibonacci numbers 
+*Return: Nothing.
 */
 int main(void)
 {
