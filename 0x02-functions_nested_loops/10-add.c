@@ -3,13 +3,13 @@
 /**
  * add - Addition of two int
  *
- * a: first integer should added here
+ * c: first integer should added here
  *
- * b: second integer shoold also be added 
+ * d: second integer shoold also be added 
  *
  * Return: An pretty out put
  */
-int add(int d, int c)
+int add(int c, int d)
 {
-	return (d + c);
+	return (c + d);
 }
