@@ -1,6 +1,6 @@
 /*
  * File: 10-print_triangle.c
- * Auth: Bien 
+ * Auth: Bien
  */
 
 #include "main.h"
