@@ -1,14 +1,15 @@
 /*
- * File: 100-prime_factor.c 
+ * File: 100-prime_factor.c
+ * Aut: bien
  */
 
 #include <stdio.h>
 
 /**
  * main - Finds and prints the largest prime
- *        factor of the numbers 
+ *        factor of the number 612852475143.
  *
- * Return: nothing
+ * Return: Always 0.
  */
 int main(void)
 {
