@@ -1,7 +1,7 @@
-#include "mainh"
+#include "main.h"
 
 /**
- * factorila - and factorial n
+ * factorial - and factorial n
  * @n : arams
  * Return : Recursion
  */
@@ -15,6 +15,6 @@ int factorial (int n)
          {
               return(1);
           }
-          return(n* factorial(n-1));
+          return(n * factorial(n-1));
 
 }	  
