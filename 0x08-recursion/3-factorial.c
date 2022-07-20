@@ -1,20 +1,20 @@
- #include "main.h"
+#include "main.h"
 
- /**
- * factorial - and factorial n
- * @n : arams
- * Return : Recursion
+/**
+ * factorial - factorial n
+ * @n: integer arams
+ * Return: recursion
  */
 
- int factorial(int n)
- {
-        if (n < 0)
-        {
-       	     return (-1);
-        }	 
-        if (n == 1)
-        {
-              return (1);
-        }
-        return (n * factorial(n - 1));
- }
+int factorial(int n)
+{
+	if (n < 0)
+	{
+		return (-1);
+	}
+	if (n == 1)
+	{
+		return (1);
+	}
+	return (n * factorial(n - 1));
+}
