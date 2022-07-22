@@ -1,1 +1,1 @@
-This is our low level programming project .Library project
+This is low level programming file for library project
