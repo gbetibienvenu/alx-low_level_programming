@@ -1,17 +1,22 @@
+/*
+ * File: 2-strlen.c
+ * Auth: Bien
+ */
+
 #include "main.h"
 
 /**
  * _strlen - Returns the length of a string.
- * @str: string.
+ * @str: The string to get the length of.
  *
- * Return: Length.
+ * Return: The length of @str.
  */
-int _strlen(char *s)
+size_t _strlen(const char *str)
 {
-        int len = 0;
+	size_t length = 0;
 
-        while (*s++)
-                len++;
+	while (*str++)
+		length++;
 
-        return (len);
+	return (length);
 }
