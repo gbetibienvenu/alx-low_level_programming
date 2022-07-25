@@ -2,8 +2,6 @@
 #include <stdlib.h>
 
 /**
- *Task: Malloc
- * Auth: Bienvenu Gbeti
  * argstostr - concatenates all the arguments of your program
  * @ac: argument count.
  * @av: argument vector.
