@@ -1,8 +1,3 @@
-/*
- * File: 101-mul.c
- * Auth: Bienvenu Gbeti
- */
-
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -28,6 +23,7 @@ int find_len(char *str)
 
 	return (len);
 }
+
 
 /**
  * create_xarray - Creates an array of chars and initializes it with
@@ -56,6 +52,7 @@ char *create_xarray(int size)
 	return (array);
 }
 
+
 /**
  * iterate_zeroes - Iterates through a string of numbers containing
  *                  leading zeroes until it hits a non-zero number.
@@ -70,6 +67,7 @@ char *iterate_zeroes(char *str)
 
 	return (str);
 }
+
 
 /**
  * get_digit - Converts a digit character to a corresponding int.
@@ -91,6 +89,7 @@ int get_digit(char c)
 
 	return (digit);
 }
+
 
 /**
  * get_prod - Multiplies a string of numbers by a single digit.
@@ -141,6 +140,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 		*prod = (tens % 10) + '0';
 }
 
+
 /**
  * add_nums - Adds the numbers stored in two strings.
  * @final_prod: The buffer storing the running final product.
@@ -182,6 +182,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 	if (tens)
 		*final_prod = (tens % 10) + '0';
 }
+
 
 /**
  * main - Multiplies two positive numbers.
