@@ -2,8 +2,6 @@
 #include <stdio.h>
 
 /**
- *Auth: Bienvenu gbeti
- *
  * print_dog - print a struct dog
  * @d: struct dog
  *
