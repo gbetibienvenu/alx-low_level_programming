@@ -1,8 +1,6 @@
 #include "dog.h"
 
 /**
- * Auth: Bienvenu gbeti
- * task:1-dog.c
  * init_dog - initialize a variable of type struct dog
  * @d: struct dog
  * @name: name of the dog
