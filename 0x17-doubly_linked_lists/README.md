@@ -24,3 +24,4 @@ NB: Write this inside the file ==> (en C Pyfo neZ ) , and then you can go on for
 5- Do ==> chmod u+x 102-result (enter)
 6- Do ==> git add . (enter)                           7- Do ==> git commit -m "write any comment here" (enter)
 8- Do ==> git push (enter)
+Ending of this instruction is to do ALX tasks
